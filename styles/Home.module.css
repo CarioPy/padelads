@@ -24,9 +24,32 @@
 }
 
 .subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   font-family: "Bebas Neue", cursive;
   color: white;
   font-size: 50px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+
+  border-radius: 10px;
+  background-color: #ff2f77;
+
+  cursor: pointer;
+}
+
+.subtitle:hover {
+  background: rgb(0, 255, 250);
+  background: linear-gradient(
+    310deg,
+    rgba(0, 255, 250, 1) 0%,
+    rgba(255, 47, 119, 1) 100%
+  );
 }
 
 .table {
