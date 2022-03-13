@@ -1,5 +1,9 @@
-html,
+html {
+  height: 200vh;
+}
 body {
+  background-image: url("/Image/home_background.png");
+  background-size: cover;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
