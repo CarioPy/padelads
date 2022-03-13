@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import styles from "/components/table.module.css";
 
 class Table extends Component {
   state = {};
   render() {
     return (
-      <table>
+      <table className={styles.table}>
         <thead>
           <tr>
             <th colspan="2">LeaderBoard</th>
