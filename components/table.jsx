@@ -8,7 +8,7 @@ class Table extends Component {
       <table className={styles.table}>
         <thead>
           <tr>
-            <th colspan="2">LeaderBoard</th>
+            <th colSpan="2">LeaderBoard</th>
           </tr>
         </thead>
         <tbody>
