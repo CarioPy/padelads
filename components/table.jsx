@@ -41,7 +41,7 @@ class Table extends Component {
               <tr className={styles.row} key={player.id}>
                 <td className={styles.cell}>{player.name}</td>
                 <td className={styles.cell}>{player.score}</td>
-                <td className={styles.cell}>1</td>
+                <td className={styles.cell}>Work in progress</td>
               </tr>
             );
           })}
