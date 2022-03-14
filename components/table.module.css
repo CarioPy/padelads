@@ -1,7 +1,29 @@
 .table {
-  background-color: white;
+  font-family: "Bebas Neue", cursive;
+  padding: 0%;
+  top: 0;
   border-radius: 5px;
   margin: 1%;
   width: 99%;
-  height: 96%;
+}
+
+.tablehead {
+  background-color: #9b224c;
+  height: 5vh;
+  color: white;
+  font-size: 20px;
+}
+
+.row {
+  background-color: white;
+  max-height: 1px;
+}
+
+.hrow {
+  background-color: #ff2f77;
+  color: white;
+  height: 1vh;
+}
+.cell {
+  height: 1vh;
 }
