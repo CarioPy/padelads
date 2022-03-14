@@ -6,7 +6,7 @@ class Table extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      players: ["", ""],
+      players: [],
     };
   }
 
@@ -18,6 +18,7 @@ class Table extends Component {
 
   render() {
     this.getDatas();
+
     return (
       <table className={styles.table}>
         <thead>
@@ -29,11 +30,11 @@ class Table extends Component {
         </thead>
         <tbody>
           <tr className={styles.hrow}>
-            <td className={styles.cell}>Name</td>
-            <td className={styles.cell} onClick={this.getDatas}>
+            <td className={styles.hcell}>Name</td>
+            <td className={styles.hcell} onClick={this.getDatas}>
               Score
             </td>
-            <td className={styles.cell}>Rank</td>
+            <td className={styles.hcell}>Rank</td>
           </tr>
           {this.state.players.map((player) => {
             return (

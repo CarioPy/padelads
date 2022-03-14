@@ -22,7 +22,6 @@ export default function Home() {
       </div>
       <div className={styles.container}>
         <div className={styles.table}>
-          <h1 className={styles.table_title}>Legends</h1>
           <Table></Table>
         </div>
       </div>
