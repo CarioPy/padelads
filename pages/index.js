@@ -13,7 +13,7 @@ export default function Home() {
         <div className={styles.sub_container}>
           <div className={styles.title}>PadeLads</div>
           <div className={styles.subtitle}>
-            <Link href="/MatchMaking/MMhome">
+            <Link href="/MMhome_dev/MMhome">
               <a>Matchmaking</a>
             </Link>
           </div>
