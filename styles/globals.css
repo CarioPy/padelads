@@ -2,8 +2,12 @@ html {
   height: 200vh;
 }
 body {
-  background-image: url("/Image/home_background.png");
-  background-size: cover;
+  background: rgb(255, 226, 184);
+  background: linear-gradient(
+    274deg,
+    rgba(255, 226, 184, 1) 0%,
+    rgba(255, 129, 172, 1) 100%
+  );
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

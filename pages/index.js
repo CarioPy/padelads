@@ -18,7 +18,13 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className={styles.sub_container}></div>
+        <div className={styles.sub_container}>
+          <Image
+            src="/Image/untitled.png"
+            height={1029 / 2}
+            width={896 / 2}
+          ></Image>
+        </div>
       </div>
       <div className={styles.container}>
         <div className={styles.table}>

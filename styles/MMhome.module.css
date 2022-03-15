@@ -1,3 +1,10 @@
+.title {
+  font-size: 200px;
+  margin-top: 20px;
+  margin: 20px;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -6,7 +13,65 @@
   height: 100vh;
   padding: 0 2rem;
 }
+.button_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.button {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 50px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+
+  border-radius: 10px;
+  background-color: #ff2f77;
+
+  cursor: pointer;
+}
+.button:nth-child(1) {
+  margin-top: 200px;
+}
+
+.button:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 20px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+
+  border-radius: 10px;
+  background-color: rgb(0, 255, 250);
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background: rgb(0, 255, 250);
+  background: linear-gradient(
+    130deg,
+    rgba(0, 255, 250, 1) 0%,
+    rgba(255, 47, 119, 1) 100%
+  );
+}
 .sub_container {
   display: flex;
   flex-direction: column;
@@ -26,10 +91,58 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 2px;
   cursor: pointer;
 }
 
 .backhome:hover {
   text-decoration: underline;
+}
+
+.backhome_container {
+  margin-top: 300px;
+}
+
+.IDSheet {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 20px;
+
+  background-color: #ff2f77;
+  height: 400px;
+  width: 700px;
+
+  border-radius: 5px;
+}
+
+.IDTitle {
+  margin: 20px;
+}
+
+.RowIDMaincontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.IDMaincontainer {
+  display: flex;
+  flex-direction: column;
+}
+.IDInput {
+  display: flex;
+  flex-direction: column;
+
+  height: 50%;
+  margin-right: 10%;
+  width: 70%;
+  border: 0px;
+}
+
+.IDSubTitle {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 10%;
+  width: 30%;
 }
