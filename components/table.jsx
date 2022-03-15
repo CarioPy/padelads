@@ -11,7 +11,7 @@ class Table extends Component {
   }
 
   getDatas = async () => {
-    const res = await fetch("localhost:3000/api/player");
+    const res = await fetch("/api/player");
     const { data } = await res.json();
     this.setState({ players: data });
   };
