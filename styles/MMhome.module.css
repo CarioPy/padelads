@@ -1,5 +1,5 @@
 .title {
-  font-size: 200px;
+  font-size: 110px;
   margin-top: 20px;
   margin: 20px;
   font-family: "Bebas Neue", cursive;
@@ -35,8 +35,11 @@
   padding-right: 10px;
   padding-top: 3px;
 
+  margin-top: 50px;
+
   border-radius: 10px;
   background-color: #ff2f77;
+  border: solid white 2px;
 
   cursor: pointer;
 }
@@ -117,6 +120,7 @@
 
 .IDTitle {
   margin: 20px;
+  border-bottom: solid white 1px;
 }
 
 .RowIDMaincontainer {
@@ -131,12 +135,12 @@
 }
 .IDInput {
   display: flex;
-  flex-direction: column;
-
-  height: 50%;
-  margin-right: 10%;
-  width: 70%;
-  border: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  border-bottom: solid white 1px;
 }
 
 .IDSubTitle {
