@@ -11,7 +11,18 @@ const PlayerSchema = new mongoose.Schema({
 
   score: {
     type: Number,
-    required: [true, "Please add a score"],
+  },
+
+  email: {
+    type: String,
+    unique: true,
+    required: [true, "Please add a mail address"],
+  },
+
+  password: {
+    type: String,
+    unique: true,
+    required: [true, "Please add a password"],
   },
 });
 

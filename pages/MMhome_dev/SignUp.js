@@ -36,6 +36,7 @@ export default function SignUp() {
         },
         body: JSON.stringify(form),
       });
+      console.log(form);
       router.push("/");
     } catch (error) {
       console.log(error);
