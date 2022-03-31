@@ -14,7 +14,7 @@ export default function Home() {
           <div className={styles.title}>PadeLads</div>
           <div className={styles.subtitle}>
             <Link href="/MMhome_dev/MMhome">
-              <a>Matchmaking</a>
+              <a>{process.env.Name}</a>
             </Link>
           </div>
         </div>

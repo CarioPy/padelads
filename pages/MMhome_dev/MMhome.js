@@ -10,7 +10,9 @@ export default function MM_Home() {
       <Document></Document>
       <div className={styles.container}>
         <div className={styles.button_container}>
-          <div className={styles.button}>Login</div>
+          <Link href="/MMhome_dev/Login">
+            <div className={styles.button}>Login</div>
+          </Link>
           <Link href="/MMhome_dev/SignUp">
             <div className={styles.button}>Sign Up</div>
           </Link>
